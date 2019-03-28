@@ -1,3 +1,9 @@
+// Source code for Final Project
+// Name: Stephen Sturdevant
+// Teammate: Chris Carpenter
+// Class: CIT-260 Section 7
+// Date: March 25, 2019
+// derived Class Cheese
 package dairyProducts;
 
 public class Cheese extends DairyProduct {
@@ -6,8 +12,8 @@ public class Cheese extends DairyProduct {
 	
 	
 	//Data element variables – identification and nutrition info
-	private String type; // variable to store name of dairyProduct object
-	private String color; // variable to store numeric serving size of dairyProduct object (ounces)
+	private String type; // variable to store type of Cheese object
+	private String color; // variable to store color of Cheese object
 
 	//Methods 
 	/** the Cheese Method
@@ -33,7 +39,7 @@ public class Cheese extends DairyProduct {
 	}
 	
 	/** the getProductInfo Method
-	 * Purpose: getter method to return the information of this dairy product object
+	 * Purpose: getter method to return the information of this Cheese dairy product object
 	 * @param none
 	 * @return Full details on product including name, number of servings, serving size and nutritional value
 	 */
