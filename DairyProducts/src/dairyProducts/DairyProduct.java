@@ -8,6 +8,10 @@ package dairyProducts;
 
 class DairyProduct {
 	
+	// CONSTANT DECLARATIONS
+	private final int DEFAULT_SERVING_SIZE = 8;
+	private final int DEFAULT_FAT_AND_CALORIES = 100;
+	
 	//Data element variables – identification and nutrition info
 	private String name; // variable to store name of dairyProduct object
 	private double servingSize; // variable to store numeric serving size of dairyProduct object (ounces)
@@ -26,13 +30,13 @@ class DairyProduct {
 	 */
 	public DairyProduct() { // default DairyProduct object constructor no parameters
 		this.name = "Dairy Product"; // default product name
-		this.servingSize = 8; // default serving size in ounces
+		this.servingSize = DEFAULT_SERVING_SIZE; // default serving size in ounces
 		this.numberOfServings = 1; // default number of servings in product
-		this.caloriesPerServing = 100; // default number of calories in a dairy product
+		this.caloriesPerServing = DEFAULT_FAT_AND_CALORIES; // default number of calories in a dairy product
 		this.vitaminA = false; // default vitamin A containment 
 		this.vitaminC = false; // default vitamin C containment 
 		this.calcium = true; // default Calcium containment 
-		this.fat = 100; // default fat content in grams 
+		this.fat = DEFAULT_FAT_AND_CALORIES; // default fat content in grams 
 	}
 	
 	/** the DairyProduct Method
