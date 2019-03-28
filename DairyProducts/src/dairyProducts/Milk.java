@@ -62,7 +62,7 @@ public class Milk extends DairyProduct {
 	}
 	
 	/** the setFatPercent Method
-	 * Purpose: setter method to set the cheese type for this cheese product  
+	 * Purpose: setter method to set the fat percent for this milk product  
 	 * @param String type
 	 * @return none
 	 */
@@ -70,23 +70,23 @@ public class Milk extends DairyProduct {
 		this.fatPercent = fatPercent; // set fatPercent data element for this product to the user specified fatPercent parameter
 	}
 	
-	/** the getColor Method
-	 * Purpose: getter method to return the cheese color  
+	/** the getSource Method
+	 * Purpose: getter method to return the milk source  
 	 * @param none
-	 * @return Cheese color
+	 * @return Milk source
 	 */
-	public String getColor() { // getter method to return cheese color
-		return this.color; // return color data element for this cheese product
+	public String getSource() { // getter method to return Milk source
+		return this.source; // return source data element for this milk product
 	}
 	
-	/** the setColor Method
-	 * Purpose: setter method to set the cheese color for this cheese product  
-	 * @param String color
+	/** the setSource Method
+	 * Purpose: setter method to set the source for this milk product  
+	 * @param String source
 	 * @return none
 	 */
-	public void setColor (String color) { // setter method to set cheese type
-		this.color = color; // set color data element for this product to the user specified type parameter
+	public void setSource (String source) { // setter method to set milk source
+		this.source = source; // set source data element for this product to the user specified source parameter
 	}
 		
 }
-//Cheese class written by Stephen Sturdevant
+//Milk class written by Stephen Sturdevant
