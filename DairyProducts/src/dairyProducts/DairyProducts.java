@@ -19,7 +19,6 @@ class DairyProduct {
 	private double fat; // variable to store the numeric value of fat content per serving of dairyProduct object
 
 	//Methods 
-	
 	/** the DairyProduct Method
 	 * Purpose: default method to create object with default values
 	 * @param none
@@ -179,7 +178,6 @@ class DairyProduct {
 		this.fat = fatness; // set fatness data element for this product to the user specified parameter
 	}
 
-	
 	/** the getName Method
 	 * Purpose: getter method to return the name of this dairy product object
 	 * @param none
