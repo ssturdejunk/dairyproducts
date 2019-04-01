@@ -49,7 +49,7 @@ public class Milk extends DairyProduct {
 		info += "Product type = Milk \n"; // indicate to the user that this is a Milk product type
 		info += "Milk fat percentage = " + this.getFatPercent()  + "\n"; // list Milk fat percent and move to next line
 		info += "Source = " + this.getSource()  + "\n"; // list Milk source and move to next line
-		return info;
+		return info; // return info variable containing both parent class details and child class details
 	}
 
 	/** the getFatPercent Method

@@ -9,8 +9,8 @@ package dairyProducts;
 class DairyProduct {
 	
 	// CONSTANT DECLARATIONS
-	private final int DEFAULT_SERVING_SIZE = 8;
-	private final int DEFAULT_FAT_AND_CALORIES = 100;
+	private final int DEFAULT_SERVING_SIZE = 8; // constant for default serving size
+	private final int DEFAULT_FAT_AND_CALORIES = 100; // constant for default value in fat and calories
 	
 	//Data element variables – identification and nutrition info
 	private String name; // variable to store name of dairyProduct object
@@ -71,7 +71,7 @@ class DairyProduct {
 		info += "Calcium = " + this.getCalcium()  + "\n"; // list calcium containment and move to next line
 		info += "Fat = " + this.getFat()  + "\n"; // list fat content and move to next line
 		info += "Total calories = " + this.getTotalCalories()  + "\n"; // list total calories contained in the product and move to next line
-		return info;
+		return info; // return the info variable that has all of the product details
 	}
 
 	/** the getServingSize Method

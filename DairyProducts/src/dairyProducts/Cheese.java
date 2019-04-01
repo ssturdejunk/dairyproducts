@@ -49,7 +49,7 @@ public class Cheese extends DairyProduct {
 		info += "Product type = Cheese \n"; // indicate to the user that this is a cheese product type
 		info += "Cheese type = " + this.getType()  + "\n"; // list type of cheese and move to next line
 		info += "Color = " + this.getColor()  + "\n"; // list cheese color and move to next line
-		return info;
+		return info; // return info variable containing both parent class details and child class details
 	}
 
 	/** the getType Method
